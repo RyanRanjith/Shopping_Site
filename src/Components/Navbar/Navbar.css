@@ -131,7 +131,6 @@
             width: 30px;
             rotate: -90deg;
             transition: 0.5s;
-
         }
         .nav-menu{
             display: none ;
@@ -151,7 +150,7 @@
     }
 @media (max-width:500px) {
     .navbar{
-        width: 8px 0px;
+        padding: 8px 0px;
         gap:0;
     }
     .nav-logo{
@@ -165,9 +164,6 @@
     .nav-login-cart{
         transform: scale(0.8);
     }
-    
-    
 }
-
 }
     
